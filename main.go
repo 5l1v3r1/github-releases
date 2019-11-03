@@ -11,7 +11,6 @@ import (
 var args struct {
 	User    string `arg:"required"`
 	Project string `arg:"required"`
-	// Version string `arg:""`
 	Distro  string `arg:"" default:"linux" help:"linux/darwin/window"`
 	Lastest bool   `arg:"" help:"Get last version"`
 }
