@@ -2,13 +2,14 @@
 
 ### Usage
 ```
-Usage: github-releases --user USER --project PROJECT [--kernel KERNEL] [--platform PLATFORM] [--lastest] [--download]
+Usage: github-releases_darwin_amd64 --user USER --project PROJECT [--kernel KERNEL] [--architecture ARCHITECTURE] [--lastest] [--download]
 
 Options:
   --user USER
   --project PROJECT
   --kernel KERNEL        linux/darwin/window (Default is your running Kernel)
-  --platform PLATFORM    x86_64/i386
+  --architecture ARCHITECTURE
+                         auto/amd64/386
   --lastest              Get last release (Default is Latest Stable Release)
   --download             Download file
   --help, -h             display this help and exit
