@@ -1,13 +1,15 @@
 # github-releases
 
-### Options
+### Usage
 ```
---user USER
---project PROJECT
---distro DISTRO        linux/darwin/window [default: linux]
---lastest              Get last version [default: true]
---help, -h             display this help and exit
-```
+Usage: github-releases --user USER --project PROJECT [--kernel KERNEL] [--platform PLATFORM] [--lastest] [--download]
 
-### Examples
-`./github-releases --user [github-username] --project [github-project-name]`
+Options:
+  --user USER
+  --project PROJECT
+  --kernel KERNEL        linux/darwin/window (Default is your running Kernel)
+  --platform PLATFORM    x86_64/i386
+  --lastest              Get last release (Default is Latest Stable Release)
+  --download             Download file
+  --help, -h             display this help and exit
+```
